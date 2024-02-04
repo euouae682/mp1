@@ -3,6 +3,11 @@ import Photo from "./Photo";
 export default function Home() {
   return (
     <main>
+      <div className="text-center h-[800px] py-80 bg-gradient-to-b from-cyan-200 to-white">
+        <h1 className="font-semibold text-5xl" >Erosion</h1>
+        <p className="italic" >A Photo Essay</p>
+      </div>
+
       <div className="text-center my-20">
         <h1 className="font-semibold text-5xl" >Part 1: River</h1>
       </div>
@@ -109,6 +114,14 @@ This is the last post on my social media, as of now. It’s a tree, silhouetted 
 
 A new year, even more places to go, and even more moments to capture. Even more media to consume and be inspired by, and even more media to produce.
 " caption="Sunset at Burrard Inlet, Stanley Park, British Columbia" align="right" />
+
+<div className="h-80 bg-gradient-to-b from-white to-orange-500"> 
+</div>
+<div className="h-80 bg-gradient-to-b from-orange-500 to-red-800 text-center text-white">
+<h1 className="text-5xl" >Hopefully with even more sunsets to capture.</h1>
+</div>
+<div className="h-20 bg-gradient-to-b from-red-800 to-black">
+</div>
     </main>
   );
 }
