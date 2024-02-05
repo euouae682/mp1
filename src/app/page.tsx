@@ -3,7 +3,7 @@ import Photo from "./Photo";
 export default function Home() {
   return (
     <main>
-      <div className="text-center h-[800px] py-80 bg-gradient-to-b from-cyan-200 to-white">
+      <div className="text-center h-[1200px] py-80 bg-gradient-to-b from-cyan-200 to-white">
         <h1 className="font-semibold text-5xl" >Erosion</h1>
         <p className="italic" >A Photo Essay</p>
       </div>
@@ -120,7 +120,8 @@ A new year, even more places to go, and even more moments to capture. Even more 
 <div className="h-80 bg-gradient-to-b from-orange-500 to-red-800 text-center text-white">
 <h1 className="text-5xl" >Hopefully with even more sunsets to capture.</h1>
 </div>
-<div className="h-20 bg-gradient-to-b from-red-800 to-black">
+<div className="h-20 bg-gradient-to-b from-red-800 to-red-900 text-white relative">
+<p className="text-sm bottom-5 left-8 absolute">Instagram: @jason_z_photography</p>
 </div>
     </main>
   );
